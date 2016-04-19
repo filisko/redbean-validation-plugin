@@ -1,0 +1,20 @@
+{
+    "name": "filisko/redbean-validation-plugin",
+    "description": "RedBean validation plugin for your Models",
+    "keywords": ["redbean", "validation", "plugin", "model"],
+    "type": "package",
+    "require": {
+        "gabordemooij/redbean": ">=4.1",
+        "wixel/gump": "^1.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"Filisko\\RedBeanPHP\\Plugin\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Filisko",
+            "email": "filisfutsarov@gmail.com"
+        }
+    ]
+}
