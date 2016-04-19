@@ -1,7 +1,7 @@
 <?php
 namespace Filisko\RedBeanPHP\Plugin;
 
-class BeanModelValidation implements \RedBeanPHP\Plugin
+class ModelValidation implements \RedBeanPHP\Plugin
 {
     public static function validate(\RedBeanPHP\OODBBean $bean)
     {
