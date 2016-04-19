@@ -10,14 +10,14 @@ class ModelValidation implements \RedBeanPHP\Plugin
 
         if ( ! $model )
         {
-            throw new ModelValidationPlugin_Exception('This bean does not have a model!');
+            throw new ModelValidation_Exception('This bean does not have a model!');
         }
 
         $rules = isset($model::$rules) ? $model::$rules : null;
 
         if ( ! $rules )
         {
-            throw new ModelValidationPlugin_Exception('This bean does not have any established rules!');
+            throw new ModelValidation_Exception('This bean does not have any established rules!');
         }
 
         $validations = [];
@@ -90,4 +90,4 @@ class ModelValidation implements \RedBeanPHP\Plugin
         return $errors;
     }
 }
-class ModelValidationPlugin_Exception extends \Exception {}
+class ModelValidation_Exception extends \Exception {}

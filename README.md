@@ -97,7 +97,7 @@ Also remember that if the validation passes, the value will be saved with the ap
 As I said before, I recommend you to have a look to [GUMP repository](https://github.com/Wixel/GUMP)
 
 ### Exceptions
-The exception **"ModelValidationPlugin_Exception"** will be thrown if you try to validate a Bean that does not have a Model or validation rules.
+The exception **ModelValidation_Exception** will be thrown if you try to validate a Bean that does not have a Model or validation rules.
 
 
 #### TODO
