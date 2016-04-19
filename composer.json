@@ -1,6 +1,6 @@
 {
     "name": "filisko/redbean-validation-plugin",
-    "description": "RedBean validation plugin for your Models",
+    "description": "RedBeanPHP validation plugin for your Models",
     "keywords": ["redbean", "validation", "plugin", "model"],
     "type": "package",
     "require": {
