@@ -94,7 +94,7 @@ Also remember that if the validation passes, the value will be saved with the ap
     return strtoupper($value);
 });
 ```
-As I said before, I recommend you to have a look to [GUMP repository](https://github.com/Wixel/GUMP)
+As I said before, I recommend you to have a look to [GUMP repository](https://github.com/Wixel/GUMP).
 
 ### Exceptions
 The exception **ModelValidation_Exception** will be thrown if you try to validate a Bean that does not have a Model or validation rules.
