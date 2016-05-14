@@ -15,7 +15,7 @@ R::ext('validate', function($bean){
 
 You will probably have something like that after adding the validation plugin;
 ```php
-R::setup('mysql:host=localhost;dbname=my_database,"root", "password");
+R::setup('mysql:host=localhost;dbname=my_database','root', 'password');
 R::freeze(TRUE);
 R::ext('validate', function($bean){
     return Filisko\RedBeanPHP\Plugin\ModelValidation::validate($bean);
