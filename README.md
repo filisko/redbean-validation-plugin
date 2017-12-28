@@ -70,10 +70,10 @@ Example of using the "user" Bean and validating it.
 $user = R::load('user', 1); //  Load user from database with ID 1
 $user->username = 'this_is_my_username'; // Change the username
 $validation = R::validate($user); // The magic
-// If $validate does not return true, then we have some errors, and $validate will return an array of these errors
+// If $validation does not return true, then we have some errors, and $validation will return an array of these errors
 if ($validation !== true)
 {
-    foreach ($validate as $field=>$message)
+    foreach ($validation as $field=>$message)
     {
         echo $message;
         echo "<hr>";
