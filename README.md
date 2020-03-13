@@ -99,7 +99,3 @@ As I said before, I recommend you to have a look to [GUMP repository](https://gi
 ### Exceptions
 The exception **ModelValidation_Exception** will be thrown if you try to validate a Bean that does not have a Model or validation rules.
 
-
-#### TODO
-* Do few tests for you
-* Clear a little the documentation
