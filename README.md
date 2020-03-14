@@ -53,12 +53,11 @@ class User extends \RedBeanPHP\SimpleModel
         'username' => [
             'label' => 'Username',
             'filter' => 'trim|sanitize_string',
-            'validation' => 'required|alpha_numeric',
+            'validation' => 'required|alpha_numeric'
         ],
         'password' => [
             'label' => 'Password',
-            'validation' => 'required|alpha_numeric|min_len,6',
-            'message' => 'I don not like this password. This is an example of a bad message.'
+            'validation' => 'required|alpha_numeric|min_len,6'
         ],
     ];
 }
